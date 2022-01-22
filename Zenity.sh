@@ -9,7 +9,11 @@ echo "print('true' if (0.3<=$brightness<=3) else 'false')" > TheIf.py
 
 if $(python3 TheIf.py)
     then sh xrandr.sh $brightness
-    else echo "error"
+        zenity --info \
+        --text="Brightness successfully changed"
+    else 
+        zenity --error \
+        --text="There has been an error"
 fi
 
 rm TheIf.py
