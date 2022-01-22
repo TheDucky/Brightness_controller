@@ -3,8 +3,8 @@ Encoding=UTF-8
 Version=1.7
 Type=Application
 Terminal=false
-Exec=/home/daksh/Code/Terminal_Brightness_controller/Zenity.sh
+Exec=/home/$USER/Code/Terminal_Brightness_controller/Zenity.sh
 Name=Brightness Controller
-Icon=/home/daksh/Code/Terminal_Brightness_controller/BrightnessIcon.png
+Icon=/home/$USER/Code/Terminal_Brightness_controller/BrightnessIcon.png
 
 # move this folder to '~/.local/share/applications'
