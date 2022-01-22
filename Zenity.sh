@@ -11,9 +11,11 @@ if $(python3 TheIf.py)
     then sh xrandr.sh $brightness
         zenity --info \
         --text="Brightness successfully changed"
-    else 
+    else
         zenity --error \
-        --text="There has been an error"
+        --text="Value not Set Properly or Cancle has been clicked"
 fi
 
 rm TheIf.py
+
+# version 1.7
