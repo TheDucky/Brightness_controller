@@ -18,4 +18,4 @@ fi
 
 rm TheIf.py
 
-# version 1.7
+# version 1.8

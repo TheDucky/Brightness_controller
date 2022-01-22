@@ -1,10 +1,8 @@
 [Desktop Entry]
 Encoding=UTF-8
-Version=1.7
+Version=1.8
 Type=Application
 Terminal=false
-Exec=/home/$USER/Code/Terminal_Brightness_controller/Zenity.sh
+Exec=~/.BrightnessControllerApp/Zenity.sh
 Name=Brightness Controller
-Icon=/home/$USER/Code/Terminal_Brightness_controller/BrightnessIcon.png
-
-# move this folder to '~/.local/share/applications'
+Icon=~/.BrightnessControllerApp/BrightnessIcon.png
